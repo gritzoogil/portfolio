@@ -1,10 +1,10 @@
 <?php
 // Database Configuration
 
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'portfolio_db');
-define('DB_USER', 'postgres');
-define('DB_PASS', 'postgres');
+define('DB_HOST', 'ep-rapid-wave-aolqvcbo.c-2.ap-southeast-1.aws.neon.tech');
+define('DB_NAME', 'neondb');
+define('DB_USER', 'neondb_owner');
+define('DB_PASS', 'npg_RegkzKl68bQc');
 define('DB_PORT', '5432');
 
 session_start();
