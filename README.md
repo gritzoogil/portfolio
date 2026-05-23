@@ -1,13 +1,13 @@
 # Portfolio Hub
 
-A PHP web app for building and sharing professional resumes. Users register, fill out their profile, and get a public resume page anyone can view — no login required.
+A PHP web app for building and sharing professional resumes. Users register, fill out their profile, and get a public resume page anyone can view with no login required.
 
 ## Features
 
-- Public resume directory — browse all registered users on the landing page
-- User accounts — register, log in, log out
-- Resume editor — update name, email, phone, location, bio, skills, education, experience, and projects
-- Public resume page — shareable link for each user at `public_resume.php?id={id}`
+- Public resume directory - browse all registered users on the landing page
+- User accounts - register, log in, log out
+- Resume editor - update name, email, phone, location, bio, skills, education, experience, and projects
+- Public resume page - shareable link for each user at `public_resume.php?id={id}`
 - Input sanitization and session-based auth throughout
 
 ## Stack
