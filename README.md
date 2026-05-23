@@ -77,7 +77,7 @@ define('DB_PORT', '5432');
 
 ## Security Notes
 
-- Passwords should be hashed with `password_hash()` before storing — verify your `register.php` does this before deploying.
+- Passwords should be hashed with `password_hash()` before storing - verify your `register.php` does this before deploying.
 - `config.php` contains plaintext database credentials. Keep it out of version control in production or use environment variables.
 - The app uses parameterized queries (`pg_query_params`) to prevent SQL injection.
 - User input is sanitized via `htmlspecialchars` + `strip_tags` on all form fields.
