@@ -11,7 +11,7 @@ session_start();
 
 function getDBConnection() {
     $conn_string = sprintf(
-        "host=%s port=%s dbname=%s user=%s password=%s",
+        "host=%s port=%s dbname=%s user=%s password=%s sslmode=require",
         DB_HOST,
         DB_PORT,
         DB_NAME,
