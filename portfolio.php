@@ -11,14 +11,14 @@ $user_name = $_SESSION['user_name'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Gil Bryan Guillermo</title>
+    <title>Portfolio - <?php echo htmlspecialchars($user_name); ?></title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="nav-brand">GBG</div>
+            <div class="nav-brand"><?php echo htmlspecialchars(strtoupper(substr($user_name, 0, 3))); ?></div>
             <div class="nav-menu">
                 <a href="portfolio.php">Dashboard</a>
                 <a href="edit_resume.php">Edit Resume</a>
@@ -33,7 +33,7 @@ $user_name = $_SESSION['user_name'];
         <div class="container">
             <div class="hero-content">
                 <p class="welcome-text">Welcome, <?php echo htmlspecialchars($user_name); ?>!</p>
-                <h1>Gil Bryan O. Guillermo</h1>
+                <h1><?php echo htmlspecialchars($user_name); ?></h1>
                 <h2>Computer Science Student | Data Analyst | Aspiring Developer</h2>
                 <p class="hero-description">
                     3rd Year BS Computer Science student passionate about data analysis, 
